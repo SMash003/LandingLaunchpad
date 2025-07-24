@@ -68,3 +68,60 @@ nav {
     font-family: "Raleway", sans-serif ;
     margin-top: 158px;
 }
+
+.see-it{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.see-it-des{
+    color: rgba(41, 36, 50, 0.5);
+    font-size: 24px;
+}
+
+.seeit-div{
+    margin: 178.5px 0px 178.5px 141px;
+}
+
+.wc-mini{
+    border-radius: 48px;
+    margin-right: 159px;
+}
+
+.section-see-it{
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding-join{
+    padding: 50px 142px 50px 142px;
+}
+
+.sec-join-bg{
+    background-color: rgba(124, 71, 255, 0.1);
+    margin: 116px 141px 137px 141px;
+}
+
+.sec-join-h{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.sec-num-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec-num-h{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.sec-num-p{
+    margin-top: 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
