@@ -5,12 +5,26 @@
     font-variation-settings: "width" 200;
 }
 
+.bottom-mar0{
+    margin-bottom: 0px;
+}
+
+.top-mar0{
+    margin-top: 0px;
+}
+
+
 .header{
     background-image: url('../Media/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+.main-bg-color{
+    background-color: rgba(255, 245, 255, 1);
+}
+
 
 .text-center{
     text-align: center;
@@ -125,3 +139,74 @@ nav {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.review-sec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.stars {
+    width: 116px;
+    height: 20px;
+    background-image: url('../Media/icon-star.png');
+    background-repeat: repeat-x;
+    background-size: 20px 20px;
+}
+
+.review-headl{
+    font-family: "raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 137px;
+    margin-bottom: 50px;
+}
+
+.rev-title{
+    font-size: 29px;
+    margin-top: 24px;
+    margin-bottom: 2px;
+}
+
+.rev-body{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.av-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.rev-name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.rev-date{
+    margin-top: 2px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+
+.rev-av-nm-dt{
+    display: flex;
+    gap: 12px;
+}
+
+.review-container{
+    padding: 30px;
+    border-radius: 14px;
+    border: solid #F2EDED;
+    background-color: white;
+    margin-bottom: 137px;
+}
+
