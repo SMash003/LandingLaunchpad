@@ -66,7 +66,7 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
-    margin-bottom: 152px;
+    /* margin-bottom: 152px; */
 }
 
 nav {
@@ -207,6 +207,40 @@ nav {
     border-radius: 14px;
     border: solid #F2EDED;
     background-color: white;
-    margin-bottom: 137px;
+    margin-bottom: 0px;
 }
 
+.ready{
+    text-align: center;
+}
+
+.ready-body{
+    background-color: white;
+    margin: 137px 150px 92.93px 150px;
+    border-radius: 14px;
+    padding: 71px 0px 71px 0px;
+}
+
+.ready-head{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.ready-p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 50%);
+    margin-bottom: 0px;
+}
+
+.ready-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ready-img img{
+    text-align: center;
+    border-radius: 48px;
+}
