@@ -218,11 +218,12 @@ nav {
     background-color: white;
     margin: 137px 150px 92.93px 150px;
     border-radius: 14px;
-    padding: 71px 0px 71px 0px;
+    padding: 71px 150px 71px 150px;
 }
 
 .ready-head{
-    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -241,6 +242,106 @@ nav {
 }
 
 .ready-img img{
-    text-align: center;
     border-radius: 48px;
+    max-width: 100%;
+    height: auto;
+}
+
+.form{
+    padding: 71px 0px 71px 0px;
+    margin: 0px 150px 14px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text{
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight: bold;
+
+}
+
+.label{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0, 50%);
+    font-size: 20px;
+    width: 497px;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    border: solid #D6DDED;
+    margin-bottom: 19px;
+}
+
+textarea{
+    margin-top: 10px;
+    padding: 20px 32px;
+    
+}
+
+.place-text{
+    margin-top: 10px;
+    padding: 20px 32px;
+}
+
+.form-button{
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 19px 201px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 104px;
+    padding-bottom: 103px;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-family: "inter", sans-serif;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+.footer-p{
+    color: #8987A1;
+    font-size: small;
+}
+
+.footer-op{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-op button{
+    background: none;
+    border: none;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: small;
+    color: #8987A1;
+}
+
+.animated-button {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+  transform: scale(1.05);
 }
